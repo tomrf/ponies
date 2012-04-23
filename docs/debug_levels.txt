@@ -1,0 +1,9 @@
+level 5 - all list related functions, including locking and unlocking of lists
+
+level 4 - all message (ipc) related functions and actions
+
+level 3 - all low level nntp / download related stuff, including queue, dispatch and dl workers
+
+level 2 - higher level download info, higher level socket stuff, ...
+
+level 1 - high level, low volume, informative messages

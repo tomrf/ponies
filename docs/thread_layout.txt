@@ -1,0 +1,27 @@
+    [PLUGINS]
+      |
+      |
+      |  ,------- [UI_MANAGER] - - - - - <<USER_INTERFACE(S)>>  (cli, curses, web..)
+      |  |
+      |  |
+      |  |
+      |  |                    ,------- [REMOTE_QUEUER]    (xxx/tcp)
+      |  |                    |
+    [MASTER] ---- [QUEUE_MANAGER]
+      |  |                    |
+      |  |                    `------- [FS_QUEUER]        (/home/ponies/nzbdump/*.nzb)
+      |  |
+      |  |
+      |  `------- [DOWNLOAD_MANAGER]
+      |                       |
+      |                       +------- [DISPATCHER]  (x.nzb)
+    [STATS]                   |                 |
+                              |                 `------- [DL_WORKER]  (segment 0)
+                              |                          ....         (segment 1)
+                              |                          ....         (segment 2)
+                              |
+                              `------- [DISPATCHER]  (y.nzb)
+                                                |
+                                                `------- [DL_WORKER]  (segment 0)
+                                                         ....         (segment 1)
+                                                         ....         (segment 2)

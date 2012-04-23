@@ -1,0 +1,30 @@
+daemon = yes
+debug = no
+logfile = (null)
+
+max_jobs = 1
+max_connections = 5
+
+dir_download = (null)
+
+nzb_queuedir_drop = (null)
+nzb_queuedir_queued = (null)
+nzb_queuedir_scaninterval = 5
+nzb_preparse = false
+
+nntp_server = (null)
+nntp_port = 119
+
+nntp_user = (null)
+nntp_pass = (null)
+
+nntp_send_group_command = yes
+
+tweak_read_buf_size = 0
+
+nntp_logoff_when_idle = TRUE
+
+fail_segment_on_checksum_mismatch = FALSE
+retry_failed_segments = 0
+
+free_diskspace_threshold = 50

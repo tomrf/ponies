@@ -1,0 +1,8 @@
+table 'runtime':
+  CREATE TABLE runtime (key varchar(16), value varchar(32));
+
+  key              create time value 
+  ----------------------------------
+  clean_shutdown                  no
+  paused                          no
+

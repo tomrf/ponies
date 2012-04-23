@@ -1,0 +1,443 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BIND	network.h	4;"	d
+CLIENT_AUTH	network.h	/^    CLIENT_AUTH,$/;"	e	enum:__anon3
+CLIENT_CONNECT	network.h	/^    CLIENT_CONNECT,$/;"	e	enum:__anon3
+CLIENT_DISCONNECT	network.h	/^    CLIENT_DISCONNECT,$/;"	e	enum:__anon3
+CMD_PREFIX	mule.h	8;"	d
+COMMON_H	common.h	2;"	d
+CONFIG_H	config.h	2;"	d
+CONF_H	conf.h	2;"	d
+CONNECT	network.h	11;"	d
+DEBUG	common.h	36;"	d
+DEBUG	common.h	39;"	d
+DEBUG_PREFIX	common.h	37;"	d
+DEFAULT_PORT	mule.h	7;"	d
+DEFAULT_PORT	server.c	30;"	d	file:
+DISPATCH_H	dispatch.h	2;"	d
+DL_START	network.h	/^    DL_START,$/;"	e	enum:__anon3
+DL_STOP	network.h	/^    DL_STOP,$/;"	e	enum:__anon3
+DL_SUSPEND	network.h	/^    DL_SUSPEND,$/;"	e	enum:__anon3
+FALSE	common.h	11;"	d
+FILEPOOL	filepool.h	6;"	d
+INFO	common.h	42;"	d
+JOB_DONE	network.h	/^    JOB_DONE,$/;"	e	enum:__anon3
+JOB_START	network.h	/^    JOB_START,$/;"	e	enum:__anon3
+JSTAT_FAIL	dispatch.h	11;"	d
+JSTAT_SUCCESS	dispatch.h	10;"	d
+KEY	conf.c	10;"	d	file:
+KEY_FALSE	conf.c	12;"	d	file:
+KEY_TRUE	conf.c	11;"	d	file:
+LISTEN	network.h	8;"	d
+LIST_H	list.h	2;"	d
+MAGIC	network.h	70;"	d
+MATCH_FILE	nzb.c	19;"	d	file:
+MATCH_FILE_END	nzb.c	20;"	d	file:
+MATCH_GROUP	nzb.c	18;"	d	file:
+MATCH_NZB	nzb.c	21;"	d	file:
+MATCH_NZB_END	nzb.c	22;"	d	file:
+MATCH_SEGMENT	nzb.c	17;"	d	file:
+MAXCLIENTS	server.c	29;"	d	file:
+MAXFUCKOFFLEN	network.h	71;"	d
+MAXHASHLEN	network.h	72;"	d
+MAXHOSTNAMELEN	config.h	9;"	d
+MAX_PASSLEN	config.h	13;"	d
+MAX_USERLEN	config.h	12;"	d
+MESSAGE_H	message.h	2;"	d
+MULE_H	mule.h	2;"	d
+NAME	mule.h	5;"	d
+NETWORK_H	network.h	2;"	d
+NNTP_H	nntp.h	2;"	d
+NO	common.h	13;"	d
+NS_CLOSED	nntp.h	4;"	d
+NS_CONNECTED	nntp.h	6;"	d
+NS_ERROR	nntp.h	7;"	d
+NS_PREAUTH	nntp.h	5;"	d
+NZB_ADDED	network.h	/^    NZB_ADDED, \/* pointer to list of struct segment_node or filename? *\/$/;"	e	enum:__anon3
+NZB_DONE	network.h	/^    NZB_DONE,$/;"	e	enum:__anon3
+NZB_H	nzb.h	2;"	d
+NZB_REMOVED	network.h	/^    NZB_REMOVED,$/;"	e	enum:__anon3
+NZB_START_DL	network.h	/^    NZB_START_DL,$/;"	e	enum:__anon3
+NZB_STATUS	network.h	/^    NZB_STATUS,$/;"	e	enum:__anon3
+PATH_MAX	config.h	5;"	d
+POLL_TIMEOUT	mule.h	9;"	d
+PONIES_MSG	network.h	/^    PONIES_MSG,$/;"	e	enum:__anon3
+PROTO_H	proto.h	2;"	d
+QSTAT_ABORTED	queue.h	10;"	d
+QSTAT_DOWNLOADING	queue.h	7;"	d
+QSTAT_FINISHED	queue.h	8;"	d
+QSTAT_PAUSED	queue.h	9;"	d
+QSTAT_STARTING	queue.h	6;"	d
+QSTAT_WAITING	queue.h	5;"	d
+QUEUE_H	queue.h	2;"	d
+REUSEADDR	network.h	6;"	d
+SEGMENT_COMPLETED	network.h	/^    SEGMENT_COMPLETED,$/;"	e	enum:__anon3
+SEGMENT_DOWNLOAD	network.h	/^    SEGMENT_DOWNLOAD,$/;"	e	enum:__anon3
+SEGMENT_ERROR	network.h	/^    SEGMENT_ERROR,$/;"	e	enum:__anon3
+SEGMENT_NAME	network.h	/^    SEGMENT_NAME,$/;"	e	enum:__anon3
+SEGMENT_SIZE	network.h	/^    SEGMENT_SIZE,$/;"	e	enum:__anon3
+SEGMENT_START	network.h	/^    SEGMENT_START,$/;"	e	enum:__anon3
+SEGMENT_STOP	network.h	/^    SEGMENT_STOP,$/;"	e	enum:__anon3
+SEGSTAT_ACTIVE	nzb.h	5;"	d
+SEGSTAT_COMPLETED	nzb.h	6;"	d
+SEGSTAT_FAILED	nzb.h	7;"	d
+SEGSTAT_FREE	nzb.h	4;"	d
+SERVER	server.h	5;"	d
+SERVER_H	server.h	2;"	d
+SETNONBLOCK	network.h	9;"	d
+SHUTDOWN	network.h	/^    SHUTDOWN$/;"	e	enum:__anon3
+SLEEPTIME	common.h	15;"	d
+SOCK	mule.h	12;"	d
+SOCKET	network.h	10;"	d
+STATS_H	stats.h	2;"	d
+STAT_DLQ_QUEUE_SIZE	network.h	/^    STAT_DLQ_QUEUE_SIZE,$/;"	e	enum:__anon3
+STAT_THREADS_RUNNING	network.h	/^    STAT_THREADS_RUNNING,$/;"	e	enum:__anon3
+STAT_THREADS_TOTAL	network.h	/^    STAT_THREADS_TOTAL,$/;"	e	enum:__anon3
+STDIN	mule.h	11;"	d
+THREADS_H	threads.h	2;"	d
+TRUE	common.h	10;"	d
+TT_DL_DISPATCH	threads.h	7;"	d
+TT_DL_MGR	threads.h	4;"	d
+TT_DL_WORKER	threads.h	8;"	d
+TT_QUEUE_MGR	threads.h	5;"	d
+TT_STATS	threads.h	9;"	d
+TT_UI_MGR	threads.h	6;"	d
+VERSION	mule.h	4;"	d
+WORKER_TERMINATE	network.h	/^    WORKER_TERMINATE,$/;"	e	enum:__anon3
+WSTAT_ACTIVE	dispatch.h	6;"	d
+WSTAT_COMPLETED	dispatch.h	7;"	d
+WSTAT_IDLE	dispatch.h	5;"	d
+YDECODE_H	ydecode.h	2;"	d
+YES	common.h	12;"	d
+_CRC32_H	crc32.h	2;"	d
+__USE_GNU	nzb.c	9;"	d	file:
+active_downloads	stats.h	/^  unsigned int     active_downloads;$/;"	m	struct:stats_container
+active_threads	stats.h	/^  unsigned int     active_threads;$/;"	m	struct:stats_container
+active_threads_workers	stats.h	/^  unsigned int     active_threads_workers;$/;"	m	struct:stats_container
+add_client	server.c	/^add_client(int lfd, struct pollfd *pollset, unsigned int cnum, client_t *c)$/;"	f	file:
+arg_list	message.h	/^  list_t     *arg_list;$/;"	m	struct:message_node
+arg_ptr	message.h	/^  void       *arg_ptr;$/;"	m	struct:message_node
+article_t	nntp.h	/^} article_t;$/;"	t	typeref:struct:__anon5
+atime	message.h	/^  time_t     atime;       \/* access \/ read time *\/$/;"	m	struct:message_node
+bail	mule.c	/^void bail(char *s)$/;"	f
+bits_in	nntp.h	/^  long            bits_in;$/;"	m	struct:__anon4
+bits_in_rsetc	nntp.h	/^  unsigned int    bits_in_rsetc;   \/* bits_in reset counter *\/$/;"	m	struct:__anon4
+bits_out	nntp.h	/^  long            bits_out;$/;"	m	struct:__anon4
+bits_out_rsetc	nntp.h	/^  unsigned int    bits_out_rsetc;  \/* bits_out reset counter *\/$/;"	m	struct:__anon4
+bytes	nntp.h	/^  long            bytes;$/;"	m	struct:__anon5
+bytes	nzb.h	/^    unsigned int        bytes;$/;"	m	struct:nzb_segment
+caddr	server.h	/^    struct sockaddr_in     caddr;$/;"	m	struct:ponies_client	typeref:struct:ponies_client::sockaddr_in
+child_list	threads.h	/^  list_t            *child_list;$/;"	m	struct:thread_node
+chksum_crc32	crc32.c	/^u_int32_t chksum_crc32 (unsigned char *block, unsigned int length)$/;"	f
+chksum_crc32gentab	crc32.c	/^void chksum_crc32gentab(void)$/;"	f
+clean_shutdown	master.c	/^void clean_shutdown()$/;"	f
+client_t	server.h	/^} client_t;$/;"	t	typeref:struct:ponies_client
+close_client	server.c	/^close_client(int num, struct pollfd *pollset,unsigned int *cnum,client_t *c,$/;"	f	file:
+close_file	filepool.c	/^close_file(filepool_t *pool, worker_job_t *job, filepool_entry_t *ent)$/;"	f	file:
+cols	mule.c	/^static int cols;$/;"	v	file:
+conf_read	conf.c	/^int conf_read(const char *path)$/;"	f
+conf_sanity_check	conf.c	/^void conf_sanity_check(struct config_keys *c)$/;"	f
+conf_set_defaults	conf.c	/^void conf_set_defaults(struct config_keys *c)$/;"	f
+config_keys	conf.h	/^struct config_keys {$/;"	s
+connect_time	nntp.h	/^  time_t          connect_time;$/;"	m	struct:__anon4
+count_segments_with_status	filepool.c	/^count_segments_with_status(struct nzb *nzb, int status)$/;"	f	file:
+crc32	ydecode.h	/^  char             crc32[9];$/;"	m	struct:yenc_info
+crc32_ok	ydecode.h	/^  int              crc32_ok;    \/* TRUE \/ FALSE, does crc32 sum match? *\/$/;"	m	struct:yenc_info
+crc_tab	crc32.c	/^u_int32_t crc_tab[256];$/;"	v
+ctime	message.h	/^  time_t     ctime;       \/* create \/ sent time *\/$/;"	m	struct:message_node
+d_download	dispatch.c	/^static int d_download(struct nzb *nzb, pthread_t *my_id)$/;"	f	file:
+daemon	conf.h	/^  int     daemon;$/;"	m	struct:config_keys
+data	list.h	/^  void                         *data;$/;"	m	struct:listnode_container
+data	ydecode.h	/^  char             *data;       \/* pointer to decoded data buffer *\/$/;"	m	struct:yenc_info
+data_size	ydecode.h	/^  ssize_t          data_size;   \/* size of decoded data *\/$/;"	m	struct:yenc_info
+date	nntp.h	/^  char            *date;$/;"	m	struct:__anon5
+debug	conf.h	/^  int     debug;$/;"	m	struct:config_keys
+debug	misc.c	/^void debug(pid_t pid, char *file, int line, const char *function, int level, char *fmt, ...)$/;"	f
+debug	mule.c	/^void         debug(pid_t pid, char *file, int line, const char *function, int level, char *fmt, ...) { }$/;"	f
+die	misc.c	/^void die(char *fmt, ...)$/;"	f
+die	mule.c	/^void die(char *fmt, ...)$/;"	f
+dir_download	conf.h	/^  char    dir_download[PATH_MAX];$/;"	m	struct:config_keys
+directory	filepool.h	/^    char           directory[PATH_MAX];$/;"	m	struct:__anon1
+discriminate_par2	nzb.c	/^int discriminate_par2(const void * foo, const void * bar)$/;"	f
+dispatch	dispatch.c	/^void* dispatch(void *arg)$/;"	f
+dispatch_file	dispatch.h	/^typedef struct dispatch_file {$/;"	s
+dispatch_file_t	dispatch.h	/^} dispatch_file_t;$/;"	t	typeref:struct:dispatch_file
+dispatch_time	queue.h	/^  time_t        dispatch_time;$/;"	m	struct:queue_node
+dispatch_tp	queue.h	/^  pthread_t     *dispatch_tp;$/;"	m	struct:queue_node
+dlworker	dlworker.c	/^void* dlworker(void *arg)$/;"	f
+dlworker_connect	dlworker.c	/^nntp_connection* dlworker_connect(pthread_t *my_id)$/;"	f
+download_mgr	download.c	/^void* download_mgr(void *arg)$/;"	f
+fail_segment_on_checksum_mismatch	conf.h	/^  int     fail_segment_on_checksum_mismatch;$/;"	m	struct:config_keys
+fd	dispatch.h	/^  int             fd;$/;"	m	struct:dispatch_file
+fd	filepool.h	/^    int  fd;$/;"	m	struct:__anon2
+fd	nntp.h	/^  int             fd;$/;"	m	struct:__anon4
+fd	server.h	/^    int                    fd;$/;"	m	struct:ponies_client
+fetch_segment	dlworker.c	/^fetch_segment(pthread_t *my_id, char *group, char *message_id, size_t segment_size)$/;"	f	file:
+file_ext	misc.c	/^char* file_ext(char *name)$/;"	f
+file_list	filepool.h	/^    list_t         *file_list; \/* list of filepool_entry_t *\/$/;"	m	struct:__anon1
+file_num	dispatch.h	/^  unsigned int    file_num;$/;"	m	struct:dispatch_file
+file_size	filepool.h	/^    unsigned long file_size;$/;"	m	struct:__anon2
+filepool_entry_t	filepool.h	/^} filepool_entry_t;$/;"	t	typeref:struct:__anon2
+filepool_free_segments	filepool.c	/^int filepool_free_segments(filepool_t *pool)$/;"	f
+filepool_get_job	filepool.c	/^filepool_get_job(filepool_t *pool)$/;"	f
+filepool_incomplete	filepool.c	/^int filepool_incomplete(filepool_t *pool)$/;"	f
+filepool_init	filepool.c	/^filepool_init(struct nzb *nzb)$/;"	f
+filepool_map_loc	filepool.c	/^filepool_map_loc(filepool_t *pool, worker_job_t *job)$/;"	f
+filepool_segcomplete	filepool.c	/^filepool_segcomplete(filepool_t *pool, worker_job_t *job)$/;"	f
+filepool_segfail	filepool.c	/^void filepool_segfail(filepool_t *pool, void* ptr)$/;"	f
+filepool_t	filepool.h	/^} filepool_t;$/;"	t	typeref:struct:__anon1
+files	nzb.h	/^    struct nzb_file     **files;$/;"	m	struct:nzb	typeref:struct:nzb::nzb_file
+find_entry	filepool.c	/^find_entry(filepool_t *pool, struct nzb_file *nzbf)$/;"	f	file:
+find_incomplete_file	filepool.c	/^find_incomplete_file(filepool_t *pool)$/;"	f	file:
+find_segment_with_status	filepool.c	/^find_segment_with_status(struct nzb_file *nzbf, int status)$/;"	f	file:
+first	nntp.h	/^  long            first;$/;"	m	struct:__anon6
+flags	nntp.h	/^  int             flags;$/;"	m	struct:__anon6
+free_all_connections	socketpool.c	/^int free_all_connections(void)$/;"	f
+free_connection	socketpool.c	/^void free_connection(nntp_connection *nc)$/;"	f
+from	message.h	/^  int        from;$/;"	m	struct:message_node
+from	nntp.h	/^  char            *from;$/;"	m	struct:__anon5
+fu2	nntp.h	/^  char            *fu2;$/;"	m	struct:__anon5
+get_attr	nzb.c	/^char *get_attr(char *buf, char *key)$/;"	f
+get_connection	socketpool.c	/^nntp_connection *get_connection(pthread_t *my_id)$/;"	f
+get_free_worker	dispatch.c	/^static worker_node_t* get_free_worker(list_t *worker_list)$/;"	f	file:
+get_thread_list_ptr	master.c	/^list_t* get_thread_list_ptr(void)$/;"	f
+get_value	nzb.c	/^char* get_value(char *buf)$/;"	f
+global_opts	main.c	/^struct config_keys global_opts;$/;"	v	typeref:struct:config_keys
+group_t	nntp.h	/^} group_t;$/;"	t	typeref:struct:__anon6
+groups	nzb.h	/^    char                **groups;$/;"	m	struct:nzb_file
+has_parts	ydecode.h	/^  int              has_parts;   \/* TRUE \/ FALSE, is the data part of a bigger file? *\/$/;"	m	struct:yenc_info
+hash	network.h	/^    char         hash[MAXHASHLEN]; \/* hashed by client *\/$/;"	m	struct:ponies_msg_auth
+head	list.h	/^  struct listnode_container    *head;$/;"	m	struct:list_state	typeref:struct:list_state::listnode_container
+help	mule.c	/^void help(char *buf)$/;"	f
+html_translate	nzb.c	/^int html_translate(char *s)$/;"	f
+id	network.h	/^    unsigned int id;$/;"	m	struct:ponies_msg_welcome
+id	nntp.h	/^  char            *id;$/;"	m	struct:__anon5
+id	server.h	/^    unsigned int           id;$/;"	m	struct:ponies_client
+info	misc.c	/^void info(int level, char *fmt, ...)$/;"	f
+ispar	nzb.h	/^    int                 ispar;$/;"	m	struct:nzb_file
+keep_pointers	message.h	/^  int        keep_pointers;$/;"	m	struct:message_node
+kill_workers	dispatch.c	/^static void kill_workers(list_t *worker_list, pthread_t *my_id)$/;"	f	file:
+last	nntp.h	/^  long            last;$/;"	m	struct:__anon6
+len	network.h	/^    size_t       len;$/;"	m	struct:ponies_msg
+line	ydecode.h	/^  unsigned int     line;$/;"	m	struct:yenc_info
+lines	nntp.h	/^  int             lines;$/;"	m	struct:__anon5
+list_create	list.c	/^list_t* list_create(void)$/;"	f
+list_debug_printlist	list.c	/^void list_debug_printlist(list_t *list)$/;"	f
+list_destroy	list.c	/^unsigned int list_destroy(list_t* list, int (*killer)(void *))$/;"	f
+list_insert	list.c	/^void list_insert(list_t* list, node_t* node, node_t* newnode)$/;"	f
+list_lock	list.c	/^int list_lock(list_t *list) \/\/ XXX: should allow to fail undetected$/;"	f
+list_node_create	list.c	/^node_t* list_node_create(void *dataptr)$/;"	f
+list_pop	list.c	/^void* list_pop(list_t *list)$/;"	f
+list_push	list.c	/^void list_push(list_t *list, void *data)$/;"	f
+list_state	list.h	/^typedef struct list_state {$/;"	s
+list_t	list.h	/^} list_t;$/;"	t	typeref:struct:list_state
+list_to_array	list.c	/^void* list_to_array(list_t *list)$/;"	f
+list_unlink	list.c	/^void* list_unlink(list_t* list, node_t* node)$/;"	f
+list_unlock	list.c	/^int list_unlock(list_t *list) \/\/ XXX: should allow to fail undetected$/;"	f
+listnode_container	list.h	/^typedef struct listnode_container {$/;"	s
+logfile	conf.h	/^  char    logfile[PATH_MAX];$/;"	m	struct:config_keys
+magic	network.h	/^    unsigned int magic;$/;"	m	struct:ponies_msg
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+main	mule.c	/^int main(int argc, char *argv[])$/;"	f
+map_file	filepool.c	/^map_file(int fd, unsigned long size)$/;"	f	file:
+map_loc	dispatch.h	/^  void            *map_loc;$/;"	m	struct:dispatch_file
+map_loc	filepool.h	/^    void *map_loc;$/;"	m	struct:__anon2
+mark_file_as_done	filepool.c	/^mark_file_as_done(filepool_t *pool, struct nzb_file *nzbf)$/;"	f	file:
+master	master.c	/^int master(void)$/;"	f
+max_connections	conf.h	/^  int     max_connections;$/;"	m	struct:config_keys
+max_jobs	conf.h	/^  int     max_jobs;$/;"	m	struct:config_keys
+mega_fast_get_data_from_server	nntp_wrap.c	/^char *mega_fast_get_data_from_server(nntp_connection *nc)$/;"	f
+message_node	message.h	/^typedef struct message_node {$/;"	s
+message_t	message.h	/^} message_t;$/;"	t	typeref:struct:message_node
+msg	network.h	/^    char msg[MAXFUCKOFFLEN];$/;"	m	struct:ponies_msg_fuckoff
+msg_debug_printmessage	message.c	/^void msg_debug_printmessage(message_t *message)$/;"	f
+msg_free	message.c	/^void msg_free(message_t *message)$/;"	f
+msg_get_queue_ptr	message.c	/^list_t* msg_get_queue_ptr(void)$/;"	f
+msg_id	message.h	/^  msg_id_t   msg_id;$/;"	m	struct:message_node
+msg_id	nzb.h	/^    char                *msg_id; $/;"	m	struct:nzb_segment
+msg_id_t	network.h	/^} msg_id_t;$/;"	t	typeref:enum:__anon3
+msg_recv	message.c	/^message_t* msg_recv(int recipient)$/;"	f
+msg_recv_wait	message.c	/^message_t* msg_recv_wait(int recipient) $/;"	f
+msg_send	message.c	/^unsigned int msg_send(int from, int to, int msg_id, void *arg_ptr, list_t *arg_list, int keep_pointers)$/;"	f
+msg_send_to_type	message.c	/^unsigned int msg_send_to_type(int from, int to_type, int msg_id, void *arg_ptr, list_t *arg_list, int keep_pointers)$/;"	f
+mutex	list.h	/^  pthread_mutex_t               mutex;$/;"	m	struct:list_state
+mutexattr	list.h	/^  pthread_mutexattr_t           mutexattr;$/;"	m	struct:list_state
+n	list.h	/^  unsigned long                 n;$/;"	m	struct:list_state
+name	filepool.h	/^    char name[PATH_MAX];$/;"	m	struct:__anon2
+name	nntp.h	/^  char            *name;$/;"	m	struct:__anon6
+name	ydecode.h	/^  char             name[PATH_MAX];$/;"	m	struct:yenc_info
+newsgroups	nntp.h	/^  char            *newsgroups;$/;"	m	struct:__anon5
+next	list.h	/^  struct listnode_container    *next;$/;"	m	struct:listnode_container	typeref:struct:listnode_container::listnode_container
+nntp_article_create	nntp.c	/^article_t* nntp_article_create(void)$/;"	f
+nntp_article_free	nntp.c	/^void nntp_article_free(article_t *a)$/;"	f
+nntp_article_insert	nntp.c	/^int nntp_article_insert(article_t *a, const char *name, const char *value)$/;"	f
+nntp_article_parse_header	nntp.c	/^int nntp_article_parse_header(article_t *a, const char *line)$/;"	f
+nntp_close	nntp.c	/^void nntp_close(nntp_connection *nc)$/;"	f
+nntp_connect	nntp.c	/^nntp_connection* nntp_connect(const char *remote_host, int remote_port)$/;"	f
+nntp_connection	nntp.h	/^} nntp_connection;$/;"	t	typeref:struct:__anon4
+nntp_debug_print_article_t	nntp.c	/^void nntp_debug_print_article_t(article_t *a)$/;"	f
+nntp_get_article	nntp.c	/^int nntp_get_article(nntp_connection *nc, article_t *ar)$/;"	f
+nntp_get_line	nntp.c	/^char* nntp_get_line(nntp_connection *nc)$/;"	f
+nntp_group_create	nntp.c	/^group_t* nntp_group_create(void)$/;"	f
+nntp_group_free	nntp.c	/^void nntp_group_free(group_t *g)$/;"	f
+nntp_logoff_when_idle	conf.h	/^  int     nntp_logoff_when_idle;$/;"	m	struct:config_keys
+nntp_pass	conf.h	/^  char    nntp_pass[MAX_PASSLEN];$/;"	m	struct:config_keys
+nntp_port	conf.h	/^  int     nntp_port;$/;"	m	struct:config_keys
+nntp_read_response	nntp.c	/^int nntp_read_response(nntp_connection *nc, char **response, int *rcode, int *ok_codes, int *err_codes)$/;"	f
+nntp_send_command	nntp.c	/^int nntp_send_command(nntp_connection *nc, char *command, char **response, int *rcode, int *ok_codes, int *err_codes)$/;"	f
+nntp_send_group_command	conf.h	/^  int     nntp_send_group_command;$/;"	m	struct:config_keys
+nntp_server	conf.h	/^  char    nntp_server[MAXHOSTNAMELEN];$/;"	m	struct:config_keys
+nntp_user	conf.h	/^  char    nntp_user[MAX_USERLEN];$/;"	m	struct:config_keys
+no	nntp.h	/^  long            no;$/;"	m	struct:__anon5
+node_t	list.h	/^} node_t;$/;"	t	typeref:struct:listnode_container
+ns_auth	nntp_wrap.c	/^int ns_auth(nntp_connection *nc, char *user, char *pass)$/;"	f
+ns_connect	nntp_wrap.c	/^nntp_connection* ns_connect(char *server, unsigned int port)$/;"	f
+ns_disconnect	nntp_wrap.c	/^int ns_disconnect(nntp_connection *nc)$/;"	f
+num	nzb.h	/^    unsigned int        num;$/;"	m	struct:nzb_segment
+num_children	threads.h	/^  unsigned int      num_children;$/;"	m	struct:thread_node
+num_files	nzb.h	/^    unsigned int        num_files;$/;"	m	struct:nzb
+num_groups	nzb.h	/^    unsigned int        num_groups;$/;"	m	struct:nzb_file
+num_segments	nzb.h	/^    unsigned int        num_segments;$/;"	m	struct:nzb_file
+nzb	filepool.h	/^    struct nzb     *nzb;$/;"	m	struct:__anon1	typeref:struct:__anon1::nzb
+nzb	nzb.h	/^struct nzb {$/;"	s
+nzb	queue.h	/^  struct nzb    *nzb;$/;"	m	struct:queue_node	typeref:struct:queue_node::nzb
+nzb_file	nzb.h	/^struct nzb_file {$/;"	s
+nzb_killer	nzb.c	/^void nzb_killer(struct nzb *nzb)$/;"	f
+nzb_preparse	conf.h	/^  int     nzb_preparse;$/;"	m	struct:config_keys
+nzb_queuedir_drop	conf.h	/^  char    nzb_queuedir_drop[PATH_MAX];$/;"	m	struct:config_keys
+nzb_queuedir_queued	conf.h	/^  char    nzb_queuedir_queued[PATH_MAX];$/;"	m	struct:config_keys
+nzb_queuedir_scaninterval	conf.h	/^  int     nzb_queuedir_scaninterval;$/;"	m	struct:config_keys
+nzb_segment	nzb.h	/^struct nzb_segment {$/;"	s
+nzb_segments_total	nzb.c	/^unsigned int nzb_segments_total(struct nzb *nzb)$/;"	f
+nzbf	dispatch.h	/^  struct nzb_file    *nzbf;$/;"	m	struct:worker_job	typeref:struct:worker_job::nzb_file
+nzbf	filepool.h	/^    struct nzb_file *nzbf;$/;"	m	struct:__anon2	typeref:struct:__anon2::nzb_file
+nzbfs	dispatch.h	/^  struct nzb_segment *nzbfs;$/;"	m	struct:worker_job	typeref:struct:worker_job::nzb_segment
+nzbparse	nzb.c	/^struct nzb *nzbparse(char *path) $/;"	f
+open_file	filepool.c	/^open_file(filepool_t *pool, const char *filename)$/;"	f	file:
+parent	dispatch.h	/^  pthread_t       *parent;$/;"	m	struct:worker_node
+parent	threads.h	/^  pthread_t         *parent;$/;"	m	struct:thread_node
+part	ydecode.h	/^  unsigned int     part;$/;"	m	struct:yenc_info
+part_begin	ydecode.h	/^  off_t            part_begin;$/;"	m	struct:yenc_info
+part_end	ydecode.h	/^  off_t            part_end;$/;"	m	struct:yenc_info
+path	mule.h	/^    char         *path;$/;"	m	struct:qstat
+path	nzb.h	/^    char                path[PATH_MAX];$/;"	m	struct:nzb
+path_len	network.h	/^    size_t       path_len;\/*size of NULL-terminated string coming.. this fall!*\/$/;"	m	struct:ponies_qnode
+pcrc32	ydecode.h	/^  char             pcrc32[9];$/;"	m	struct:yenc_info
+pcrc32_ok	ydecode.h	/^  int              pcrc32_ok;   \/* TRUE \/ FALSE, does part pcrc32 (crc32 of data part) match? *\/$/;"	m	struct:yenc_info
+ponies_client	server.h	/^typedef struct ponies_client {$/;"	s
+ponies_msg	network.h	/^struct ponies_msg {$/;"	s
+ponies_msg_auth	network.h	/^struct ponies_msg_auth {$/;"	s
+ponies_msg_fuckoff	network.h	/^struct ponies_msg_fuckoff {$/;"	s
+ponies_msg_welcome	network.h	/^struct ponies_msg_welcome {$/;"	s
+ponies_qnode	network.h	/^struct ponies_qnode {$/;"	s
+pool_print	filepool.c	/^void pool_print(filepool_t *pool)$/;"	f
+post_size	mule.h	/^    unsigned int post_size;$/;"	m	struct:qstat
+post_size	network.h	/^    unsigned int post_size;$/;"	m	struct:ponies_qnode
+prepare_file	filepool.c	/^prepare_file(filepool_t *pool, worker_job_t *job)$/;"	f	file:
+prev	list.h	/^  struct listnode_container    *prev;$/;"	m	struct:listnode_container	typeref:struct:listnode_container::listnode_container
+printstatus	mule.c	/^void printstatus()$/;"	f
+q_list	mule.c	/^list_t *q_list;$/;"	v
+qkiller	mule.c	/^int qkiller(void *ptr)$/;"	f
+qstat	mule.h	/^    int          qstat;$/;"	m	struct:qstat
+qstat	mule.h	/^struct qstat {$/;"	s
+qstat	network.h	/^    int          qstat;$/;"	m	struct:ponies_qnode
+qstat_build	mule.c	/^void qstat_build(char *buf, size_t len) \/\/ XXX: safe?$/;"	f
+qstat_print	mule.c	/^void qstat_print()$/;"	f
+queue_count_status	queue.c	/^int queue_count_status(list_t *queue_list, int status)$/;"	f
+queue_findfile	queue.c	/^void* queue_findfile(list_t *queue_list, char *file)$/;"	f
+queue_mgr	queue.c	/^void* queue_mgr(void *arg)$/;"	f
+queue_node	queue.h	/^typedef struct queue_node {$/;"	s
+queue_node_t	queue.h	/^} queue_node_t;$/;"	t	typeref:struct:queue_node
+queue_scan_dir	queue.c	/^int queue_scan_dir(list_t *queue_list, char *dir)$/;"	f
+queue_size	stats.h	/^  unsigned int     queue_size; $/;"	m	struct:stats_container
+queue_status	queue.h	/^  int           queue_status;$/;"	m	struct:queue_node
+queue_time	queue.h	/^  time_t        queue_time;$/;"	m	struct:queue_node
+read_client	server.c	/^read_client(int num, struct pollfd *pollset, unsigned int *cnum,client_t *c,$/;"	f	file:
+read_full_msg	mule.c	/^size_t read_full_msg(char *buf, size_t len, msg_id_t *msg_type)$/;"	f
+read_sock	mule.c	/^void read_sock(int fd)$/;"	f
+read_stdin	mule.c	/^void read_stdin()$/;"	f
+references	nntp.h	/^  char            *references;$/;"	m	struct:__anon5
+reply_to	nntp.h	/^  char            *reply_to;$/;"	m	struct:__anon5
+reset_termsize	mule.c	/^static int reset_termsize = 1;$/;"	v	file:
+retry_failed_segments	conf.h	/^  int     retry_failed_segments;$/;"	m	struct:config_keys
+segments	filepool.h	/^    unsigned int   segments;$/;"	m	struct:__anon1
+segments	nzb.h	/^    struct nzb_segment  **segments;$/;"	m	struct:nzb_file	typeref:struct:nzb_file::nzb_segment
+segments_assigned	nzb.h	/^    int                 segments_assigned;$/;"	m	struct:nzb_file
+segments_completed	nzb.h	/^    int                 segments_completed;$/;"	m	struct:nzb_file
+segments_failed	nzb.h	/^    int                 segments_failed;$/;"	m	struct:nzb_file
+send_msg	server.c	/^send_msg(int fd, msg_id_t msg_id, char *buf, size_t len)$/;"	f	file:
+send_queue_status	server.c	/^send_queue_status(list_t *qlist, client_t *clients, int cnum)$/;"	f	file:
+set_termsize	mule.c	/^void set_termsize()$/;"	f
+setup_listen_sock	server.c	/^static void setup_listen_sock(struct pollfd *ps, struct sockaddr_in *s, int *fd)$/;"	f	file:
+setup_socket_pool	socketpool.c	/^list_t *setup_socket_pool(void)$/;"	f
+show_info	mule.c	/^static int show_info = 0;$/;"	v	file:
+signal_handler	mule.c	/^void signal_handler(int signum)$/;"	f
+sigpipe_handler	sock.c	/^void sigpipe_handler()$/;"	f
+size	dispatch.h	/^  unsigned int    size;$/;"	m	struct:dispatch_file
+size	nzb.h	/^    unsigned int        size;$/;"	m	struct:nzb
+size	nzb.h	/^    unsigned long       size;$/;"	m	struct:nzb_file
+size	ydecode.h	/^  ssize_t          size;$/;"	m	struct:yenc_info
+smart_connect	socketpool.c	/^static nntp_connection *smart_connect(pthread_t *my_id)$/;"	f	file:
+sock_connect	sock.c	/^int sock_connect(const char *remote_host, int remote_port)$/;"	f
+sock_send	sock.c	/^ssize_t sock_send(int sockfd, char *data, ...) \/\/XXX: eliminate static buffer?$/;"	f
+sock_send_nc	sock.c	/^ssize_t sock_send_nc(nntp_connection *nc, char *data, ...) \/\/XXX: eliminate static buffer?$/;"	f
+socket_cond	socketpool.c	/^static pthread_cond_t   socket_cond;$/;"	v	file:
+socket_idle	socketpool.c	/^static struct timeval   socket_idle, wait_total;$/;"	v	typeref:struct:timeval	file:
+socket_list	socketpool.c	/^static list_t           *socket_list;$/;"	v	file:
+socket_waiters	socketpool.c	/^static unsigned int     socket_waiters = 0;$/;"	v	file:
+spawn_thread	master.c	/^pthread_t* spawn_thread(list_t *thread_list, int thread_type, void* (*thread_func)(void*), pthread_t *parent)$/;"	f
+spawn_workers	dispatch.c	/^static int spawn_workers(list_t *worker_list, int num, pthread_t *my_id)$/;"	f	file:
+start_server	server.c	/^void* start_server(void *arg)$/;"	f
+state	nntp.h	/^  int             state;$/;"	m	struct:__anon4
+stats	stats.c	/^void* stats(void *arg)$/;"	f
+stats_container	stats.h	/^struct stats_container {$/;"	s
+status	dispatch.h	/^  int                status;$/;"	m	struct:worker_job
+status	dispatch.h	/^  int             status;$/;"	m	struct:worker_node
+status	mule.c	/^static int status = 0;$/;"	v	file:
+status	nzb.h	/^    int                 status;$/;"	m	struct:nzb_segment
+stolower	misc.c	/^void stolower(char *s)$/;"	f
+stoupper	misc.c	/^void stoupper(char *s)$/;"	f
+subject	nntp.h	/^  char            *subject;$/;"	m	struct:__anon5
+subject_sanitize	nzb.c	/^void subject_sanitize(char *s, char *dest)$/;"	f
+tail	list.h	/^  struct listnode_container    *tail;$/;"	m	struct:list_state	typeref:struct:list_state::listnode_container
+thread_function	threads.h	/^  void              *(*thread_function)(void);$/;"	m	struct:thread_node
+thread_node	threads.h	/^typedef struct thread_node {$/;"	s
+thread_node_t	threads.h	/^} thread_node_t;$/;"	t	typeref:struct:thread_node
+thread_type	threads.h	/^  int               thread_type;$/;"	m	struct:thread_node
+time_lock	dlworker.c	/^static pthread_mutex_t time_lock;$/;"	v	file:
+to	message.h	/^  int        to;$/;"	m	struct:message_node
+total	ydecode.h	/^  unsigned int     total;$/;"	m	struct:yenc_info
+tp	dispatch.h	/^  pthread_t       *tp;$/;"	m	struct:worker_node
+tp	threads.h	/^  pthread_t         *tp;$/;"	m	struct:thread_node
+tweak_read_buf_size	conf.h	/^  int     tweak_read_buf_size;$/;"	m	struct:config_keys
+type	network.h	/^    msg_id_t     type;$/;"	m	struct:ponies_msg
+version	network.h	/^    unsigned int version;$/;"	m	struct:ponies_msg_auth
+version	network.h	/^    unsigned int version;$/;"	m	struct:ponies_msg_welcome
+wait_total	socketpool.c	/^static struct timeval   socket_idle, wait_total;$/;"	v	typeref:struct:	file:
+worker_job	dispatch.h	/^  worker_job_t    *worker_job;$/;"	m	struct:worker_node
+worker_job	dispatch.h	/^typedef struct worker_job {$/;"	s
+worker_job_t	dispatch.h	/^} worker_job_t;$/;"	t	typeref:struct:worker_job
+worker_node	dispatch.h	/^typedef struct worker_node {$/;"	s
+worker_node_t	dispatch.h	/^} worker_node_t;$/;"	t	typeref:struct:worker_node
+workers	dispatch.h	/^  unsigned int    workers;$/;"	m	struct:dispatch_file
+x_atoi	yinfo.c	/^int x_atoi(const char *nptr)$/;"	f
+x_atol	yinfo.c	/^long x_atol(const char *nptr)$/;"	f
+xmalloc	misc.c	/^void* xmalloc(size_t size)$/;"	f
+ydecode_buffer	ydecode.c	/^yenc_info_t* ydecode_buffer(char *in, size_t len)$/;"	f
+yenc_find_data_offset_end	ydecode.c	/^int yenc_find_data_offset_end(char *buf, size_t buf_len)$/;"	f
+yenc_find_data_offset_start	ydecode.c	/^int yenc_find_data_offset_start(char *buf, size_t buf_len)$/;"	f
+yenc_find_key	ydecode.c	/^int yenc_find_key(char *buf, const char *key, size_t buf_len, char *value, size_t value_len)$/;"	f
+yenc_has_ybegin	ydecode.c	/^int yenc_has_ybegin(char *buf, size_t len)$/;"	f
+yenc_has_ypart	ydecode.c	/^int yenc_has_ypart(char *buf, size_t len)$/;"	f
+yenc_info	ydecode.h	/^typedef struct yenc_info {$/;"	s
+yenc_info_t	ydecode.h	/^} yenc_info_t;$/;"	t	typeref:struct:yenc_info
+yi	dispatch.h	/^  struct yenc_info   *yi;$/;"	m	struct:worker_job	typeref:struct:worker_job::yenc_info
+yinf_debug_print_yenc_info	yinfo.c	/^void yinf_debug_print_yenc_info(yenc_info_t *yenc_info)$/;"	f
+yinf_find_key_offset	yinfo.c	/^char* yinf_find_key_offset(char *s, char *key) \/\/ XXX: this could be a little slow...$/;"	f
+yinf_find_key_offset_backwards	yinfo.c	/^char* yinf_find_key_offset_backwards(char *s, char *key)$/;"	f
+yinf_get_key_value	yinfo.c	/^char* yinf_get_key_value(char *s, int ignore_space)$/;"	f
+yinf_populate_struct	yinfo.c	/^int yinf_populate_struct(yenc_info_t *yenc_info, char *data, size_t len)$/;"	f

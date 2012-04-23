@@ -1,0 +1,7 @@
+  01.  User control/command channel framework.  Command message handling.
+
+  02.  Interactive mode for ponies(1), read from stdin and pass along to command channel stuff.
+
+  03.  Pause & unpause user control stuff.
+
+  04.  Fix nzbparser.  Do not move .nzb files before completion.  Update queuemanager to reflect changes.
